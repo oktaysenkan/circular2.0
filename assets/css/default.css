@@ -1,8 +1,8 @@
 @media only screen and (min-width: 1200px) {
-  .background-xl {
+  body {
     background-image: url(../images/large-shape.svg);
     background-repeat: no-repeat;
-    background-position: top right 60px;
+    background-position: right 60px top 10px;
     background-size: 45%;
   }
 }
@@ -212,68 +212,20 @@ body {
   margin-top: 160px;
 }
 
-.section-three .smartcase {}
-
-.section-three .content h2 {
-  font-weight: 300;
-  font-size: 50px;
-}
-
-.section-three .content span {
-  display: block;
-  margin-top: 40px;
-  font-weight: 300;
-  font-size: 20px;
-  color: #5B5D7E;
-}
-
-.section-three .content a {
-  display: block;
-  margin-top: 40px;
-  font-weight: 500;
-  font-size: 18px;
-  color: #6347FB;
-}
-
 .section-four {
   margin-top: 50px;
-}
-
-.section-four .calendar {}
-
-.section-four .content h2 {
-  font-weight: 300;
-  font-size: 50px;
-}
-
-.section-four .content span {
-  display: block;
-  margin-top: 40px;
-  font-weight: 300;
-  font-size: 20px;
-  color: #5B5D7E;
-}
-
-.section-four .content a {
-  display: block;
-  margin-top: 40px;
-  font-weight: 500;
-  font-size: 18px;
-  color: #6347FB;
 }
 
 .section-five {
   margin-top: 50px;
 }
 
-.section-five .discount {}
-
-.section-five .content h2 {
+.feature .content h2 {
   font-weight: 300;
   font-size: 50px;
 }
 
-.section-five .content span {
+.feature .content span {
   display: block;
   margin-top: 40px;
   font-weight: 300;
@@ -281,7 +233,7 @@ body {
   color: #5B5D7E;
 }
 
-.section-five .content a {
+.feature .content a {
   display: block;
   margin-top: 40px;
   font-weight: 500;
@@ -289,7 +241,7 @@ body {
   color: #6347FB;
 }
 
-[class^="section-"] .content .xl-margin {
+.feature .content .xl-margin {
   margin-top: 100px;
   height: 1px;
 }
