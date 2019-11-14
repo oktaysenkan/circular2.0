@@ -54,6 +54,48 @@ body {
   border-bottom: 2px solid #6347FB;
 }
 
+.mobile-menu {
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+}
+
+.mobile-menu nav {
+  display: block;
+  background: #fff;
+  box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.15);
+}
+
+.mobile-menu nav ul {
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+  padding-inline-start: 0px;
+  padding-block-end: 80px;
+  padding-block-start: 80px;
+}
+
+.mobile-menu nav li {
+  font-weight: 300;
+  font-size: 30px;
+  color: #090B27;
+  display: block;
+  padding: 20px;
+}
+
+.mobile-menu nav a {
+  color: rgba(9, 11, 39, 0.5);
+  text-decoration: none;
+}
+
+.mobile-menu nav a.active {
+  color: #090B27;
+  border-bottom: 2px solid #6347FB;
+}
+
 .download button {
   border-radius: 100px;
   border: none;
@@ -78,7 +120,7 @@ body {
   border-radius: 100px;
 }
 
-.download-menu a.menu {
+.download-menu a {
   color: #090B27;
   margin-left: 10px;
 }
@@ -91,7 +133,7 @@ body {
   margin-top: 50px;
   font-size: 80px;
   font-weight: 300;
-  color: #090B27
+  color: #090B27;
 }
 
 .section-one p {
@@ -107,10 +149,6 @@ body {
 
 .margin-mobile {
   margin: 20px;
-}
-
-.reset {
-  height: 1px;
 }
 
 .section-one .buttons .download {
