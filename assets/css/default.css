@@ -264,15 +264,37 @@ body {
   padding-top: 80px;
   display: flex;
   justify-content: center;
+  vertical-align: middle;
 }
 
 .offers .switch span {
   padding: 0px 20px;
   font-size: 18px;
+  line-height: 32px;
 }
 
 .offers .switch span.active {
   font-weight: 500;
+}
+
+.offers .switch .toggle {
+  display: flex;
+  width: 60px;
+  height: 32px;
+  background: rgba(99, 71, 251, 0.15);
+  border-radius: 100px;
+}
+
+.offers .switch .toggle a.button {
+  width: 32px;
+  height: 32px;
+  background: #6347FB;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 32px;
+  cursor: pointer;
+  background-image: url(../images/checkmark.png);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .offers .prices {
