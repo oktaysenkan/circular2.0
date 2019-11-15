@@ -47,6 +47,7 @@ body {
 
 .header .menu ul li a:hover {
   opacity: 1;
+  text-decoration: none;
 }
 
 .header .menu ul li a.active {

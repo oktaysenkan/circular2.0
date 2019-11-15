@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", function() {
   var menuOpenIcon = document.querySelector("#menu-icon");
 
   menuOpenIcon.addEventListener('click', (e) => {
-    ToggleMenu(menu);
-    ToggleMenuIcon(menuOpenIcon)
+    toggleMenu(menu);
+    toggleMenuIcon(menuOpenIcon)
   });
 
-  function ToggleMenu(menu) {
+  function toggleMenu(menu) {
     if (menu.style.visibility == "visible") {
       menu.style.visibility = "hidden";
     } else {
@@ -16,12 +16,15 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
-  function ToggleMenuIcon(menuOpenIcon) {
+  function toggleMenuIcon(menuOpenIcon) {
     var icon = menuOpenIcon.classList[1];
-    if (icon == "fa-bars") {
-      menuOpenIcon.classList.replace("fa-bars", "fa-times");
+    var hamburgerMenuIcon = "fa-times";
+    var exitIcon = "fa-bars";
+
+    if (icon == hamburgerMenuIcon) {
+      menuOpenIcon.classList.replace(hamburgerMenuIcon, exitIcon);
     } else {
-      menuOpenIcon.classList.replace("fa-times", "fa-bars");
+      menuOpenIcon.classList.replace(exitIcon, hamburgerMenuIcon);
     }
   }
 
