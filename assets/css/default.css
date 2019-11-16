@@ -1,13 +1,25 @@
 @media only screen and (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
   body {
     background-image: url(../images/large-shape.svg);
     background-repeat: no-repeat;
     background-position: right 60px top 10px;
     background-size: 45%;
   }
+  .section-one {
+    margin-top: 5rem;
+  }
+  .section-one h1 {
+    font-size: 5rem;
+  }
 }
 
 @media only screen and (max-width: 1199px) {
+  html {
+    font-size: 14px;
+  }
   .section-one .right {
     position: relative;
     margin-top: 40px;
@@ -17,6 +29,15 @@
     background-size: 110%;
     background-position: top right -100px;
   }
+  .section-one {
+    margin-top: 2.857142857142857rem;
+  }
+  .section-one h1 {
+    font-size: 2.857142857142857rem;
+  }
+  .section-one .buttons .view {
+    margin-top: 20px;
+  }
 }
 
 body {
@@ -25,33 +46,29 @@ body {
   font-weight: normal;
 }
 
-.header .menu {
-  align-items: center;
-}
+.header .menu {}
 
 .header .menu ul {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   list-style-type: none;
-  text-align: center;
 }
 
 .header .menu ul li {
-  display: inline-block;
   padding: 10px 20px;
 }
 
 .header .menu ul li a {
-  color: #090B27;
-  opacity: 0.5;
+  color: rgb(9, 11, 39, 0.5);
 }
 
 .header .menu ul li a:hover {
-  opacity: 1;
   text-decoration: none;
 }
 
 .header .menu ul li a.active {
-  opacity: 1;
+  color: #090B27;
   border-bottom: 2px solid #6347FB;
 }
 
@@ -65,7 +82,6 @@ body {
 }
 
 .mobile-menu nav {
-  display: block;
   background: #fff;
   box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.15);
 }
@@ -97,11 +113,11 @@ body {
   border-bottom: 2px solid #6347FB;
 }
 
-.download button {
+.header .download button {
   border-radius: 100px;
   border: none;
   padding: 10px 20px 10px 20px;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   color: #6347FB;
   background: #fff;
@@ -109,11 +125,11 @@ body {
   border-radius: 100px;
 }
 
-.download-menu button {
+.header .download-menu button {
   border-radius: 100px;
   border: none;
   padding: 8px 16px;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
   color: #fff;
   background: #6347FB;
@@ -121,25 +137,19 @@ body {
   border-radius: 100px;
 }
 
-.download-menu a {
+.header .download-menu a {
   color: #090B27;
   margin-left: 10px;
 }
 
-.section-one {
-  margin-top: 80px;
-}
-
 .section-one h1 {
-  margin-top: 50px;
-  font-size: 80px;
   font-weight: 300;
   color: #090B27;
 }
 
 .section-one p {
-  margin-top: 5px;
-  font-size: 20px;
+  margin-top: 20px;
+  font-size: 1.20rem;
   font-weight: 300;
   color: #5B5D7E
 }
@@ -148,11 +158,7 @@ body {
   margin-top: 40px;
 }
 
-.margin-mobile {
-  margin: 20px;
-}
-
-.section-one .buttons .download {
+.section-one .buttons .download button {
   background-color: #6347FB;
   color: #fff;
   font-weight: 500;
@@ -162,7 +168,7 @@ body {
   padding: 20px 32px;
 }
 
-.section-one .buttons .view {
+.section-one .buttons .view a {
   margin-left: 10px;
   color: #6347FB;
   font-weight: 500;
@@ -278,11 +284,6 @@ body {
   font-weight: 500;
   font-size: 18px;
   color: #6347FB;
-}
-
-.feature .content .xl-margin {
-  margin-top: 100px;
-  height: 1px;
 }
 
 .offers {

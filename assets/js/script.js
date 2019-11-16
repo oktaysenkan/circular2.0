@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-
   var menu = document.querySelector(".mobile-menu");
   var menuOpenIcon = document.querySelector("#menu-icon");
 
