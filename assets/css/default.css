@@ -23,6 +23,12 @@
   .section-two .counter {
     margin-top: 40px;
   }
+  .section-two .counter span.number {
+    padding: 16px 22px;
+  }
+  .section-two .counter {
+    font-size: 1.875rem;
+  }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -55,6 +61,12 @@
   }
   .section-two .counter {
     margin-top: 20px;
+  }
+  .section-two .counter span.number {
+    padding: 6px 9px;
+  }
+  .section-two .counter {
+    font-size: 1.1428571428571428rem;
   }
 }
 
@@ -209,30 +221,33 @@ body {
   font-weight: 300;
 }
 
-.section-two .counter div {
+.section-two .counter {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
   margin-left: 5px;
-  font-size: 30px;
   font-weight: 500;
   color: #6347FB;
 }
 
-.section-two .counter .dollar {
-  margin-right: 10px;
+.section-two .counter span {
+  margin-left: 5px;
 }
 
-.section-two .counter .number {
-  width: 60px;
-  height: 70px;
+.section-two .counter {}
+
+.section-two .counter span.dollar {
+  align-self: center;
+  margin-right: 5px;
+}
+
+.section-two .counter span.number {
   background-color: rgb(99, 71, 251, 0.1);
   border-radius: 8px;
 }
 
-.section-two .counter .comma {
-  justify-content: center;
-  align-items: flex-end;
+.section-two .counter span.comma {
+  align-self: flex-end;
 }
 
 .section-three {
