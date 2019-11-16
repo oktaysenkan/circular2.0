@@ -29,6 +29,34 @@
   .section-two .counter {
     font-size: 1.875rem;
   }
+  .section-three {
+    margin-top: 120px;
+  }
+  .section-four {
+    margin-top: 160px;
+  }
+  .section-five {
+    margin-top: 160px;
+  }
+  .feature .content h2 {
+    font-size: 3.125rem;
+  }
+  .offers {
+    margin-top: 120px;
+  }
+  .offers h1.title {
+    padding-top: 120px;
+    font-size: 3.125rem;
+  }
+  .offers .switch {
+    padding-top: 80px;
+  }
+  .offers .prices .price span.duration {
+    font-size: 2rem;
+  }
+  .offers .prices .price span.cost {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -67,6 +95,34 @@
   }
   .section-two .counter {
     font-size: 1.1428571428571428rem;
+  }
+  .section-three {
+    margin-top: 80px;
+  }
+  .section-four {
+    margin-top: 120px;
+  }
+  .section-five {
+    margin-top: 120px;
+  }
+  .feature .content h2 {
+    font-size: 2.142857142857143rem;
+  }
+  .offers {
+    margin-top: 80px;
+  }
+  .offers h1.title {
+    padding-top: 80px;
+    font-size: 2.142857142857143rem;
+  }
+  .offers .switch {
+    padding-top: 40px;
+  }
+  .offers .prices .price span.duration {
+    font-size: 1.7142857142857142rem;
+  }
+  .offers .prices .price span.cost {
+    font-size: 1.7142857142857142rem;
   }
 }
 
@@ -250,28 +306,15 @@ body {
   align-self: flex-end;
 }
 
-.section-three {
-  margin-top: 160px;
-}
-
-.section-four {
-  margin-top: 50px;
-}
-
-.section-five {
-  margin-top: 50px;
-}
-
 .feature .content h2 {
   font-weight: 300;
-  font-size: 50px;
 }
 
 .feature .content span {
   display: block;
   margin-top: 40px;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #5B5D7E;
 }
 
@@ -279,7 +322,7 @@ body {
   display: block;
   margin-top: 40px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #6347FB;
 }
 
@@ -291,14 +334,11 @@ body {
 }
 
 .offers h1.title {
-  padding-top: 80px;
   font-weight: 300;
-  font-size: 50px;
   text-align: center;
 }
 
 .offers .switch {
-  padding-top: 80px;
   display: flex;
   justify-content: center;
   vertical-align: middle;
@@ -341,7 +381,7 @@ body {
 .offers .prices .price h6.title {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .offers .prices .price {
@@ -361,13 +401,11 @@ body {
 
 .offers .prices .price span.duration {
   font-weight: 300;
-  font-size: 32px;
   color: #6347FB;
 }
 
 .offers .prices .price span.cost {
   font-weight: 500;
-  font-size: 32px;
   color: #6347FB;
 }
 
@@ -377,11 +415,12 @@ body {
 }
 
 .offers .prices .price span.description {
-  font-size: 16px;
+  font-size: 1rem;
   color: #5B5D7E;
 }
 
 .offers .prices .price a button.try {
+  font-size: 0.875rem;
   margin-top: 20px;
   background: #6347FB;
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
@@ -398,7 +437,7 @@ body {
 }
 
 .offers ul.features li {
-  display: block;
+  font-size: 1rem;
   list-style: none;
   font-weight: 300;
   margin-bottom: 20px;
@@ -407,8 +446,8 @@ body {
 
 .offers ul.features li i {
   color: #6347FB;
-  font-size: 20px;
-  margin-right: 20px;
+  font-size: 1.2rem;
+  margin-right: 10px;
 }
 
 .footer {
